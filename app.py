@@ -16,6 +16,12 @@ st.set_page_config(
     page_icon="🚦",
     layout="centered",
 )
+# ----------------------------------------------------------------------
+# Banner (custom nmshah9 branding image)
+# ----------------------------------------------------------------------
+BANNER_PATH = os.path.join(BASE_DIR, "banner.png")
+if os.path.exists(BANNER_PATH):
+    st.image(BANNER_PATH, width='stretch')
 
 # ---------------------------------------------------------------- styling
 st.markdown("""

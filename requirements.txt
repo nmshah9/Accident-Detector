@@ -1,0 +1,21 @@
+# Consolidated requirements — covers BOTH the notebook (Accident_Detection_CCTV.ipynb)
+# and the Streamlit app (app.py). One environment for the whole project.
+
+# --- Notebook: data, ML, plotting ---
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+scikit-learn>=1.3
+pillow>=9.5
+ipykernel>=6.25
+nbformat>=5.9
+
+# --- Deep learning (shared by notebook and app) ---
+# The app loads the model via architecture-in-code + weights-only (see src/model_utils.py),
+# which is robust across TF/Keras versions — no exact pin needed for that to work.
+# Range kept fairly narrow just to stay on tested, stable releases.
+tensorflow-cpu>=2.16,<2.22
+
+# --- Streamlit app ---
+streamlit>=1.32

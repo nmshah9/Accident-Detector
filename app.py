@@ -175,7 +175,7 @@ st.markdown("---")
 
 st.markdown("""
 <div style='text-align: center;'>
-###   Model: MobileNetV2 transfer learning · Dataset:  🚗💥🚗 Accident Detection from CCTV Footage (Kaggle)"
+### 🚗💥🚗 Accident Detection from CCTV Footage (Kaggle)"
 
 Built with ❤️ using Streamlit | Developed by nmshah9
 

@@ -167,3 +167,17 @@ else:
 
 st.markdown("---")
 st.caption("Built by Nirav Shah · Model: MobileNetV2 transfer learning · Dataset: Accident Detection from CCTV Footage (Kaggle)")
+# ============================================================
+# FOOTER
+# ============================================================
+
+st.markdown("---")
+
+st.markdown("""
+<div style='text-align: center;'>
+###   Model: MobileNetV2 transfer learning · Dataset:  🚗💥🚗 Accident Detection from CCTV Footage (Kaggle)"
+
+Built with ❤️ using Streamlit | Developed by nmshah9
+
+</div>
+""", unsafe_allow_html=True)
